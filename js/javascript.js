@@ -32,16 +32,15 @@ function addHoverEffect(elementId, hoverElementId1, hoverElementId2) {
   
   var aboutImage = document.getElementById("diagnostic");
 
-  // 添加點擊事件處理器
   aboutImage.addEventListener("click", function() {
-      // 在這裡使用 window.location.href 跳轉到目標網頁
+      
       window.location.href = "html/choose index.html";
   });
 
   var aboutImage = document.getElementById("book");
 
-  // 添加點擊事件處理器
+
   aboutImage.addEventListener("click", function() {
-      // 在這裡使用 window.location.href 跳轉到目標網頁
+     
       window.location.href = "html/role.html";
   });
