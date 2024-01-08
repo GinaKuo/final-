@@ -35,7 +35,7 @@ function addHoverEffect(elementId, hoverElementId1, hoverElementId2) {
   // 添加點擊事件處理器
   aboutImage.addEventListener("click", function() {
       // 在這裡使用 window.location.href 跳轉到目標網頁
-      window.location.href = "choose index.html";
+      window.location.href = "html/choose index.html";
   });
 
   var aboutImage = document.getElementById("book");
@@ -43,5 +43,5 @@ function addHoverEffect(elementId, hoverElementId1, hoverElementId2) {
   // 添加點擊事件處理器
   aboutImage.addEventListener("click", function() {
       // 在這裡使用 window.location.href 跳轉到目標網頁
-      window.location.href = "role.html";
+      window.location.href = "html/role.html";
   });
